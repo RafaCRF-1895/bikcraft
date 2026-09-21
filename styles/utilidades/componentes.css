@@ -29,3 +29,25 @@
     font-size: 1rem;
   }
 }
+
+.link {
+  display: inline-block;
+  color: var(--cor-p1);
+  font:
+    500 1.5rem/150% 'Lexend',
+    sans-serif;
+  text-transform: uppercase;
+}
+
+.link::after {
+  content: '';
+  display: block;
+  width: 0;
+  height: 4px;
+  background-color: currentColor;
+  transition: width 0.3s;
+}
+
+.link.link:hover::after {
+  width: 100%;
+}
