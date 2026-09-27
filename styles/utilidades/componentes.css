@@ -18,6 +18,8 @@
     600 1.125rem/135% 'Lexend',
     sans-serif;
   max-width: max-content;
+  border: none;
+  cursor: pointer;
 }
 
 .botao.secundario {
